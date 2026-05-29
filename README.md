@@ -1,19 +1,18 @@
-## Hey, I'm Yakuphan
+## WinstonRedGuard (WRG-11)
 
-I build AI-powered developer tools, security systems, and monorepo infrastructure. Currently maintaining a 17-app Python monorepo with enterprise CI/CD, 5500+ tests, and zero CVEs.
+Open-source AI/LLM security tooling — threat detection, monorepo infrastructure, and AI agent scaffolding.
 
 ### Published Packages
 
 | Package | What it does |
 |---------|-------------|
-| [wrg-mcp-server](https://pypi.org/project/wrg-mcp-server/) | MCP server exposing 36 tools to Claude and AI agents |
+| [wrg-mcp-server](https://pypi.org/project/wrg-mcp-server/) | MCP server exposing 41 tools to Claude and AI agents |
 | [wrg-devguard](https://pypi.org/project/wrg-devguard/) | Security scanner: secrets, crypto, credentials, policy gates |
 | [instinct-mcp](https://pypi.org/project/instinct-mcp/) | Pattern learning engine with MCP integration |
 | [wrg-rule-lab](https://pypi.org/project/wrg-rule-lab/) | Declarative rule engine with conflict detection |
 
-### Live Demos
+### Live
 
-- [Prompt Injection Detector](https://huggingface.co/spaces/yakuphanycl/prompt-injection-detector) on HuggingFace
 - [wrg-mcp-server](https://registry.modelcontextprotocol.io/v0/servers?search=wrg-mcp-server) on MCP Registry
 
 ### Focus Areas
@@ -29,7 +28,8 @@ I build AI-powered developer tools, security systems, and monorepo infrastructur
 
 ### Stats
 
-- 17 active apps, 65 archived (honest scope thesis)
-- 4 PyPI packages, 1 MCP Registry entry, 1 HuggingFace Space
-- 260 test files, 5500+ tests, 60% coverage floor enforced
-- 11 GitHub Actions workflows, 0 CodeQL alerts
+- 35 active apps in registry, 45 archived (83 total in monorepo)
+- 4 PyPI packages, 1 MCP Registry entry
+- 883 test files, 12,000+ tests collected
+- 60% minimum coverage floor per app (per-app ratchets enforced)
+- CodeQL scanning active across all public repos
