@@ -28,8 +28,10 @@ Open-source AI/LLM security tooling — threat detection, monorepo infrastructur
 
 ### Stats
 
+<!-- STATS:START -->
 - 35 active apps in registry, 45 archived (83 total in monorepo)
 - 4 PyPI packages, 1 MCP Registry entry
-- 883 test files, 12,000+ tests collected
+- 585 test files, 11,000+ tests collected
 - 60% minimum coverage floor per app (per-app ratchets enforced)
 - CodeQL scanning active across all public repos
+<!-- STATS:END -->
