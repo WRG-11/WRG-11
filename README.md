@@ -6,7 +6,7 @@ WRG-11 is a pseudonymous solo research lab working on AI/LLM security and OSINT 
 
 | Project | What it does |
 |---------|--------------|
-| [mcp-objauthz-lab](https://github.com/WRG-11/mcp-objauthz-lab) ⭐ | Vulnerable-by-design MCP server for learning object-level / cross-tenant authorization (BOLA/IDOR) bugs + a hunt checklist |
+| [mcp-objauthz-lab](https://github.com/WRG-11/mcp-objauthz-lab) | Vulnerable-by-design MCP server for learning object-level / cross-tenant authorization (BOLA/IDOR) bugs + a hunt checklist |
 
 ## Scanners
 
