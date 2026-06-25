@@ -1,35 +1,57 @@
-# WinstonRedGuard (WRG-11)
+<div align="center">
 
-WRG-11 is a pseudonymous solo research lab working on AI/LLM security and OSINT tooling — Sigma detection rules, MCP security research, and scanners, published as working artifacts rather than promises. Everything is open source under MIT.
+<h1>🛡️ WinstonRedGuard · WRG-11</h1>
 
-## Security labs & research
+<p><strong>Pseudonymous solo research lab — AI/LLM security &amp; OSINT tooling</strong></p>
+<p><em>Working artifacts, not promises. Everything open source under MIT.</em></p>
 
-| Project | What it does |
-|---------|--------------|
-| [mcp-objauthz-lab](https://github.com/WRG-11/mcp-objauthz-lab) | Vulnerable-by-design MCP server for learning object-level / cross-tenant authorization (BOLA/IDOR) bugs + a hunt checklist |
+<p>
+  <img src="https://img.shields.io/github/followers/WRG-11?style=flat&labelColor=30363d&color=2ea043&label=followers" alt="followers" />
+  <img src="https://img.shields.io/badge/license-MIT-2ea043?labelColor=30363d" alt="license" />
+  <img src="https://img.shields.io/badge/sigma_rules-68-1f6feb?labelColor=30363d" alt="sigma rules" />
+  <img src="https://img.shields.io/badge/benign_false--positives-0-2ea043?labelColor=30363d" alt="benign false positives" />
+  <img src="https://img.shields.io/badge/CodeQL_alerts-0-2ea043?labelColor=30363d" alt="CodeQL alerts" />
+</p>
 
-## Scanners
+<p>
+  <code>Python 3.12</code> · <code>Sigma</code> · <code>MCP</code> · <code>OSINT</code> · <code>MITRE ATT&amp;CK</code> · <code>Claude Code</code>
+</p>
 
-| Project | What it does |
-|---------|--------------|
-| [devguard-scan](https://github.com/WRG-11/devguard-scan) | 100% client-side secret scanner — paste code or drop files, nothing leaves your browser (zero upload) |
+</div>
 
-## Detection / Sigma
+---
 
-| Project | What it does |
-|---------|--------------|
-| [wrg-sigma-rules](https://github.com/WRG-11/wrg-sigma-rules) | 68 sigma detection rules across 11 MITRE ATT&CK tactic categories — 0 benign false-positives; ships 3 MCP tools + 3 Claude Code skills |
+### 🧪 Security labs & research
 
-## OSINT & research
+[**mcp-objauthz-lab**](https://github.com/WRG-11/mcp-objauthz-lab) &nbsp; ![stars](https://img.shields.io/github/stars/WRG-11/mcp-objauthz-lab?style=flat&labelColor=30363d&color=8957e5&label=%E2%98%85) ![last commit](https://img.shields.io/github/last-commit/WRG-11/mcp-objauthz-lab?style=flat&labelColor=30363d&color=6e7681&display_timestamp=committer&label=updated)
 
-| Project | What it does |
-|---------|--------------|
-| [osint-trust-envelope](https://github.com/WRG-11/osint-trust-envelope) | Per-source epistemic ceilings for OSINT results — honest verified / inferred / heuristic / unverified envelopes; zero-dependency Python |
+Vulnerable-by-design MCP server for learning object-level / cross-tenant authorization (BOLA/IDOR) bugs + a hunt checklist.
 
-## Live
+### 🔍 Scanners
 
-- [devguard-scan](https://wrg-11.github.io/devguard-scan/) — 100% client-side secret scanner (zero upload)
+[**devguard-scan**](https://github.com/WRG-11/devguard-scan) &nbsp; ![stars](https://img.shields.io/github/stars/WRG-11/devguard-scan?style=flat&labelColor=30363d&color=8957e5&label=%E2%98%85) ![last commit](https://img.shields.io/github/last-commit/WRG-11/devguard-scan?style=flat&labelColor=30363d&color=6e7681&display_timestamp=committer&label=updated) &nbsp; · &nbsp; [**▶ live demo**](https://wrg-11.github.io/devguard-scan/)
 
-## Quality
+100% client-side secret scanner — paste code or drop files, nothing leaves your browser (zero upload).
 
-`0 / 68 sigma false-positives` · `0 CodeQL alerts` · `MIT across the ecosystem` · zero-dependency Python where it makes sense
+### 📡 Detection / Sigma
+
+[**wrg-sigma-rules**](https://github.com/WRG-11/wrg-sigma-rules) &nbsp; ![stars](https://img.shields.io/github/stars/WRG-11/wrg-sigma-rules?style=flat&labelColor=30363d&color=8957e5&label=%E2%98%85) ![last commit](https://img.shields.io/github/last-commit/WRG-11/wrg-sigma-rules?style=flat&labelColor=30363d&color=6e7681&display_timestamp=committer&label=updated)
+
+<!--SIGMA_RULES_START-->68<!--SIGMA_RULES_END--> sigma detection rules across 11 MITRE ATT&CK tactic categories — 0 benign false-positives; ships 3 MCP tools + 3 Claude Code skills.
+
+### 🧭 OSINT & research
+
+[**osint-trust-envelope**](https://github.com/WRG-11/osint-trust-envelope) &nbsp; ![stars](https://img.shields.io/github/stars/WRG-11/osint-trust-envelope?style=flat&labelColor=30363d&color=8957e5&label=%E2%98%85) ![last commit](https://img.shields.io/github/last-commit/WRG-11/osint-trust-envelope?style=flat&labelColor=30363d&color=6e7681&display_timestamp=committer&label=updated)
+
+Per-source epistemic ceilings for OSINT results — honest verified / inferred / heuristic / unverified envelopes; zero-dependency Python.
+
+---
+
+<div align="center">
+
+<img height="150" src="https://github-readme-stats.vercel.app/api?username=WRG-11&show_icons=true&theme=github_dark&hide_border=true&hide=contribs&count_private=false" alt="WRG-11 GitHub stats" />
+<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WRG-11&layout=compact&theme=github_dark&hide_border=true&langs_count=6" alt="Top languages" />
+
+<sub><code>0 / <!--SIGMA_RULES_START-->68<!--SIGMA_RULES_END--> benign sigma false-positives</code> · <code>0 CodeQL alerts</code> · <code>MIT across the ecosystem</code> · <code>zero-dependency Python where it makes sense</code></sub>
+
+</div>
