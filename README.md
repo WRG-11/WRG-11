@@ -26,6 +26,10 @@
 
 Vulnerable-by-design MCP server for learning object-level / cross-tenant authorization (BOLA/IDOR) bugs + a hunt checklist.
 
+[**ai-security-toolkit**](https://github.com/WRG-11/ai-security-toolkit) &nbsp; ![last commit](https://img.shields.io/github/last-commit/WRG-11/ai-security-toolkit?style=flat&labelColor=30363d&color=6e7681&display_timestamp=committer&label=updated)
+
+Offensive &amp; defensive AI/LLM security tools, labs, and CTF write-ups — zero-dependency Python.
+
 ### 🔍 Scanners
 
 [**devguard-scan**](https://github.com/WRG-11/devguard-scan) &nbsp; ![last commit](https://img.shields.io/github/last-commit/WRG-11/devguard-scan?style=flat&labelColor=30363d&color=6e7681&display_timestamp=committer&label=updated) &nbsp; · &nbsp; [**▶ live demo**](https://wrg-11.github.io/devguard-scan/)
