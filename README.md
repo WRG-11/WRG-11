@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="WinstonRedGuard · WRG-11 — AI/LLM security, OSINT tooling, detection engineering" />
+<h1>🛡️ WinstonRedGuard · WRG-11</h1>
 
 <p><strong>Pseudonymous solo research lab — AI/LLM security &amp; OSINT tooling</strong></p>
 <p><em>Working artifacts, not promises. Everything open source under MIT.</em></p>
