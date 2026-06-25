@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>🛡️ WinstonRedGuard · WRG-11</h1>
+<img src="assets/banner.svg" width="100%" alt="WinstonRedGuard · WRG-11 — AI/LLM security, OSINT tooling, detection engineering" />
 
 <p><strong>Pseudonymous solo research lab — AI/LLM security &amp; OSINT tooling</strong></p>
 <p><em>Working artifacts, not promises. Everything open source under MIT.</em></p>
@@ -20,6 +20,8 @@
 
 ---
 
+Solo researcher working on AI/LLM security, detection engineering, and OSINT tooling. I publish small, zero-dependency artifacts I actually use: vulnerable-by-design labs, a client-side secret scanner, Sigma detection content, and OSINT trust envelopes. Bug reports and detection rules occasionally land upstream.
+
 ### 🧪 Security labs & research
 
 [**mcp-objauthz-lab**](https://github.com/WRG-11/mcp-objauthz-lab) &nbsp; ![last commit](https://img.shields.io/github/last-commit/WRG-11/mcp-objauthz-lab?style=flat&labelColor=30363d&color=6e7681&display_timestamp=committer&label=updated)
@@ -35,6 +37,8 @@ Offensive &amp; defensive AI/LLM security tools, labs, and CTF write-ups — zer
 [**devguard-scan**](https://github.com/WRG-11/devguard-scan) &nbsp; ![last commit](https://img.shields.io/github/last-commit/WRG-11/devguard-scan?style=flat&labelColor=30363d&color=6e7681&display_timestamp=committer&label=updated) &nbsp; · &nbsp; [**▶ live demo**](https://wrg-11.github.io/devguard-scan/)
 
 100% client-side secret scanner — paste code or drop files, nothing leaves your browser (zero upload).
+
+<img src="assets/devguard-scan-demo.png" width="100%" alt="devguard-scan in-browser — 5 secrets flagged, values [REDACTED], 0-byte upload" />
 
 ### 📡 Detection / Sigma
 
