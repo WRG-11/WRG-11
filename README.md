@@ -38,8 +38,6 @@ Offensive &amp; defensive AI/LLM security tools, labs, and CTF write-ups — zer
 
 100% client-side secret scanner — paste code or drop files, nothing leaves your browser (zero upload).
 
-<img src="assets/devguard-scan-demo.png" width="100%" alt="devguard-scan in-browser — 5 secrets flagged, values [REDACTED], 0-byte upload" />
-
 ### 📡 Detection / Sigma
 
 [**wrg-sigma-rules**](https://github.com/WRG-11/wrg-sigma-rules) &nbsp; ![last commit](https://img.shields.io/github/last-commit/WRG-11/wrg-sigma-rules?style=flat&labelColor=30363d&color=6e7681&display_timestamp=committer&label=updated)
