@@ -6,7 +6,6 @@
 <p><em>Working artifacts, not promises. Everything open source under MIT.</em></p>
 
 <p>
-  <img src="https://img.shields.io/github/followers/WRG-11?style=flat&labelColor=30363d&color=2ea043&label=followers" alt="followers" />
   <img src="https://img.shields.io/badge/license-MIT-2ea043?labelColor=30363d" alt="license" />
   <img src="https://img.shields.io/badge/sigma_rules-68-1f6feb?labelColor=30363d" alt="sigma rules" />
   <img src="https://img.shields.io/badge/benign_false--positives-0-2ea043?labelColor=30363d" alt="benign false positives" />
@@ -23,34 +22,40 @@
 
 ### 🧪 Security labs & research
 
-[**mcp-objauthz-lab**](https://github.com/WRG-11/mcp-objauthz-lab) &nbsp; ![stars](https://img.shields.io/github/stars/WRG-11/mcp-objauthz-lab?style=flat&labelColor=30363d&color=8957e5&label=%E2%98%85) ![last commit](https://img.shields.io/github/last-commit/WRG-11/mcp-objauthz-lab?style=flat&labelColor=30363d&color=6e7681&display_timestamp=committer&label=updated)
+[**mcp-objauthz-lab**](https://github.com/WRG-11/mcp-objauthz-lab) &nbsp; ![last commit](https://img.shields.io/github/last-commit/WRG-11/mcp-objauthz-lab?style=flat&labelColor=30363d&color=6e7681&display_timestamp=committer&label=updated)
 
 Vulnerable-by-design MCP server for learning object-level / cross-tenant authorization (BOLA/IDOR) bugs + a hunt checklist.
 
 ### 🔍 Scanners
 
-[**devguard-scan**](https://github.com/WRG-11/devguard-scan) &nbsp; ![stars](https://img.shields.io/github/stars/WRG-11/devguard-scan?style=flat&labelColor=30363d&color=8957e5&label=%E2%98%85) ![last commit](https://img.shields.io/github/last-commit/WRG-11/devguard-scan?style=flat&labelColor=30363d&color=6e7681&display_timestamp=committer&label=updated) &nbsp; · &nbsp; [**▶ live demo**](https://wrg-11.github.io/devguard-scan/)
+[**devguard-scan**](https://github.com/WRG-11/devguard-scan) &nbsp; ![last commit](https://img.shields.io/github/last-commit/WRG-11/devguard-scan?style=flat&labelColor=30363d&color=6e7681&display_timestamp=committer&label=updated) &nbsp; · &nbsp; [**▶ live demo**](https://wrg-11.github.io/devguard-scan/)
 
 100% client-side secret scanner — paste code or drop files, nothing leaves your browser (zero upload).
 
 ### 📡 Detection / Sigma
 
-[**wrg-sigma-rules**](https://github.com/WRG-11/wrg-sigma-rules) &nbsp; ![stars](https://img.shields.io/github/stars/WRG-11/wrg-sigma-rules?style=flat&labelColor=30363d&color=8957e5&label=%E2%98%85) ![last commit](https://img.shields.io/github/last-commit/WRG-11/wrg-sigma-rules?style=flat&labelColor=30363d&color=6e7681&display_timestamp=committer&label=updated)
+[**wrg-sigma-rules**](https://github.com/WRG-11/wrg-sigma-rules) &nbsp; ![last commit](https://img.shields.io/github/last-commit/WRG-11/wrg-sigma-rules?style=flat&labelColor=30363d&color=6e7681&display_timestamp=committer&label=updated)
 
 <!--SIGMA_RULES_START-->68<!--SIGMA_RULES_END--> sigma detection rules across 11 MITRE ATT&CK tactic categories — 0 benign false-positives; ships 3 MCP tools + 3 Claude Code skills.
 
 ### 🧭 OSINT & research
 
-[**osint-trust-envelope**](https://github.com/WRG-11/osint-trust-envelope) &nbsp; ![stars](https://img.shields.io/github/stars/WRG-11/osint-trust-envelope?style=flat&labelColor=30363d&color=8957e5&label=%E2%98%85) ![last commit](https://img.shields.io/github/last-commit/WRG-11/osint-trust-envelope?style=flat&labelColor=30363d&color=6e7681&display_timestamp=committer&label=updated)
+[**osint-trust-envelope**](https://github.com/WRG-11/osint-trust-envelope) &nbsp; ![last commit](https://img.shields.io/github/last-commit/WRG-11/osint-trust-envelope?style=flat&labelColor=30363d&color=6e7681&display_timestamp=committer&label=updated)
 
 Per-source epistemic ceilings for OSINT results — honest verified / inferred / heuristic / unverified envelopes; zero-dependency Python.
 
 ---
 
-<div align="center">
+### 🔗 Upstream contributions
 
-<img height="150" src="https://github-readme-stats.vercel.app/api?username=WRG-11&show_icons=true&theme=github_dark&hide_border=true&hide=contribs&count_private=false" alt="WRG-11 GitHub stats" />
-<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WRG-11&layout=compact&theme=github_dark&hide_border=true&langs_count=6" alt="Top languages" />
+Detection content merged into community projects:
+
+- [**nuclei-templates #16333**](https://github.com/projectdiscovery/nuclei-templates/pull/16333) — Milvus CVE-2026-26190 detection template
+- [**nuclei-templates #16346**](https://github.com/projectdiscovery/nuclei-templates/pull/16346) — changedetection.io CVE-2026-25527 detection template
+
+---
+
+<div align="center">
 
 <sub><code>0 / <!--SIGMA_RULES_START-->68<!--SIGMA_RULES_END--> benign sigma false-positives</code> · <code>0 CodeQL alerts</code> · <code>MIT across the ecosystem</code> · <code>zero-dependency Python where it makes sense</code></sub>
 
