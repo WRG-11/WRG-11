@@ -7,7 +7,7 @@
 
 <p>
   <img src="https://img.shields.io/badge/license-MIT-2ea043?labelColor=30363d" alt="license" />
-  <img src="https://img.shields.io/badge/sigma_rules-68-1f6feb?labelColor=30363d" alt="sigma rules" />
+  <img src="https://img.shields.io/badge/sigma_rules-73-1f6feb?labelColor=30363d" alt="sigma rules" />
   <img src="https://img.shields.io/badge/benign_false--positives-0-2ea043?labelColor=30363d" alt="benign false positives" />
   <img src="https://img.shields.io/badge/CodeQL_alerts-0-2ea043?labelColor=30363d" alt="CodeQL alerts" />
 </p>
@@ -42,7 +42,7 @@ Offensive &amp; defensive AI/LLM security tools, labs, and CTF write-ups — zer
 
 [**wrg-sigma-rules**](https://github.com/WRG-11/wrg-sigma-rules) &nbsp; ![last commit](https://img.shields.io/github/last-commit/WRG-11/wrg-sigma-rules?style=flat&labelColor=30363d&color=6e7681&display_timestamp=committer&label=updated)
 
-<!--SIGMA_RULES_START-->68<!--SIGMA_RULES_END--> sigma detection rules across 11 MITRE ATT&CK tactic categories — 0 benign false-positives; ships 3 MCP tools + 3 Claude Code skills.
+<!--SIGMA_RULES_START-->73<!--SIGMA_RULES_END--> sigma detection rules across 12 detection categories — 0 benign false-positives; ships 3 MCP tools + 3 Claude Code skills.
 
 ### 🧭 OSINT & research
 
@@ -63,6 +63,6 @@ Detection content merged into community projects:
 
 <div align="center">
 
-<sub><code>0 / <!--SIGMA_RULES_START-->68<!--SIGMA_RULES_END--> benign sigma false-positives</code> · <code>0 CodeQL alerts</code> · <code>MIT across the ecosystem</code> · <code>zero-dependency Python where it makes sense</code></sub>
+<sub><code>0 / <!--SIGMA_RULES_START-->73<!--SIGMA_RULES_END--> benign sigma false-positives</code> · <code>0 CodeQL alerts</code> · <code>MIT across the ecosystem</code> · <code>zero-dependency Python where it makes sense</code></sub>
 
 </div>
