@@ -58,7 +58,7 @@ Detection content merged into community projects:
 
 - [**nuclei-templates #16333**](https://github.com/projectdiscovery/nuclei-templates/pull/16333) — Milvus CVE-2026-26190 detection template
 - [**nuclei-templates #16346**](https://github.com/projectdiscovery/nuclei-templates/pull/16346) — changedetection.io CVE-2026-25527 detection template
-
+-- [**nuclei-templates #16335**](https://github.com/projectdiscovery/nuclei-templates/pull/16335) — SiYuan CVE-2026-33476 detection template
 ---
 
 <div align="center">
