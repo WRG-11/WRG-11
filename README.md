@@ -52,15 +52,20 @@ Per-source epistemic ceilings for OSINT results — honest verified / inferred /
 
 ---
 
-### 🔗 Upstream contributions
+### 🛡 Security advisories
 
-Detection content merged into community projects:
+Credited reporter on published GitHub Security Advisories:
 
-- [**nuclei-templates #16333**](https://github.com/projectdiscovery/nuclei-templates/pull/16333) — Milvus CVE-2026-26190 detection template
-- [**nuclei-templates #16346**](https://github.com/projectdiscovery/nuclei-templates/pull/16346) — changedetection.io CVE-2026-25527 detection template
-- [**nuclei-templates #16335**](https://github.com/projectdiscovery/nuclei-templates/pull/16335) — SiYuan CVE-2026-33476 detection template
----
+- **Pelican:** application API mounts ACL-scope bypass, CWE-862/863 ([GHSA-43h8-3896-wqv5](https://github.com/pelican-dev/panel/security/advisories/GHSA-43h8-3896-wqv5))
+- **Pelican:** Filament suspend-all / unsuspend-all missing authorization ([GHSA-4wxv-r46p-w2f9](https://github.com/pelican-dev/panel/security/advisories/GHSA-4wxv-r46p-w2f9))
 
+### 🔗 Upstream detections
+
+Detection templates merged into projectdiscovery/nuclei-templates:
+
+- **CVE-2026-26190** Milvus, unauthenticated metrics port ([#16333](https://github.com/projectdiscovery/nuclei-templates/pull/16333))
+- **CVE-2026-25527** changedetection.io ≤ 0.52.9 ([#16346](https://github.com/projectdiscovery/nuclei-templates/pull/16346))
+- **CVE-2026-33476** SiYuan ≤ v3.6.1 ([#16335](https://github.com/projectdiscovery/nuclei-templates/pull/16335))
 <div align="center">
 
 <sub><code>0 / <!--SIGMA_RULES_START-->73<!--SIGMA_RULES_END--> benign sigma false-positives</code> · <code>0 CodeQL alerts</code> · <code>MIT across the ecosystem</code> · <code>zero-dependency Python where it makes sense</code></sub>
