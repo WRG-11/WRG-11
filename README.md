@@ -2,7 +2,7 @@
 
 <h1>🛡️ WinstonRedGuard · WRG-11</h1>
 
-<p><strong>Pseudonymous solo research lab — AI/LLM security &amp; OSINT tooling</strong></p>
+<p><strong>Pseudonymous solo research lab for AI/LLM security &amp; OSINT tooling</strong></p>
 <p><em>Working artifacts, not promises. Everything open source under MIT.</em></p>
 
 <p>
@@ -30,25 +30,25 @@ Vulnerable-by-design MCP server for learning object-level / cross-tenant authori
 
 [**ai-security-toolkit**](https://github.com/WRG-11/ai-security-toolkit) &nbsp; ![last commit](https://img.shields.io/github/last-commit/WRG-11/ai-security-toolkit?style=flat&labelColor=30363d&color=6e7681&display_timestamp=committer&label=updated)
 
-Offensive &amp; defensive AI/LLM security tools, labs, and CTF write-ups — zero-dependency Python.
+Offensive &amp; defensive AI/LLM security tools, labs, and CTF write-ups. Zero-dependency Python.
 
 ### 🔍 Scanners
 
 [**devguard-scan**](https://github.com/WRG-11/devguard-scan) &nbsp; ![last commit](https://img.shields.io/github/last-commit/WRG-11/devguard-scan?style=flat&labelColor=30363d&color=6e7681&display_timestamp=committer&label=updated) &nbsp; · &nbsp; [**▶ live demo**](https://wrg-11.github.io/devguard-scan/)
 
-100% client-side secret scanner — paste code or drop files, nothing leaves your browser (zero upload).
+100% client-side secret scanner. Paste code or drop files; nothing leaves your browser (zero upload).
 
 ### 📡 Detection / Sigma
 
 [**wrg-sigma-rules**](https://github.com/WRG-11/wrg-sigma-rules) &nbsp; ![last commit](https://img.shields.io/github/last-commit/WRG-11/wrg-sigma-rules?style=flat&labelColor=30363d&color=6e7681&display_timestamp=committer&label=updated)
 
-<!--SIGMA_RULES_START-->73<!--SIGMA_RULES_END--> sigma detection rules across 12 detection categories — 0 benign false-positives; ships 3 MCP tools + 3 Claude Code skills.
+<!--SIGMA_RULES_START-->73<!--SIGMA_RULES_END--> sigma detection rules across 12 detection categories, 0 benign false-positives. Ships 3 MCP tools + 3 Claude Code skills.
 
 ### 🧭 OSINT & research
 
 [**osint-trust-envelope**](https://github.com/WRG-11/osint-trust-envelope) &nbsp; ![last commit](https://img.shields.io/github/last-commit/WRG-11/osint-trust-envelope?style=flat&labelColor=30363d&color=6e7681&display_timestamp=committer&label=updated)
 
-Per-source epistemic ceilings for OSINT results — honest verified / inferred / heuristic / unverified envelopes; zero-dependency Python.
+Per-source epistemic ceilings for OSINT results: honest verified / inferred / heuristic / unverified envelopes. Zero-dependency Python.
 
 ---
 
