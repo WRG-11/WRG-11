@@ -42,7 +42,7 @@ Offensive &amp; defensive AI/LLM security tools, labs, and CTF write-ups. Zero-d
 
 [**wrg-sigma-rules**](https://github.com/WRG-11/wrg-sigma-rules) &nbsp; ![last commit](https://img.shields.io/github/last-commit/WRG-11/wrg-sigma-rules?style=flat&labelColor=30363d&color=6e7681&display_timestamp=committer&label=updated)
 
-<!--SIGMA_RULES_START-->100<!--SIGMA_RULES_END--> sigma detection rules across 12 detection categories, 0 benign false-positives. Ships 3 MCP tools + 3 Claude Code skills.
+<!--SIGMA_RULES_START-->100<!--SIGMA_RULES_END--> sigma detection rules across 13 ATT&CK tactic categories, 0 benign false-positives. Ships 3 MCP tools + 3 Claude Code skills.
 
 ### 🧭 OSINT & research
 
@@ -58,6 +58,8 @@ Credited reporter on published GitHub Security Advisories:
 
 - **Pelican:** application API mounts ACL-scope bypass, CWE-862/863 ([GHSA-43h8-3896-wqv5](https://github.com/pelican-dev/panel/security/advisories/GHSA-43h8-3896-wqv5))
 - **Pelican:** Filament suspend-all / unsuspend-all missing authorization ([GHSA-4wxv-r46p-w2f9](https://github.com/pelican-dev/panel/security/advisories/GHSA-4wxv-r46p-w2f9))
+- **Jexactyl:** free-billing flow missing ownership check, CWE-862 ([GHSA-9xwv-p7r5-5h5p](https://github.com/Jexactyl/Jexactyl/security/advisories/GHSA-9xwv-p7r5-5h5p))
+- **OneUptime:** incoming-call-number resend-verification-code missing ownership check — the sibling channel the CVE-2026-30959 fix sweep left uncovered, CWE-862 ([GHSA-wc96-jm46-37hh](https://github.com/OneUptime/oneuptime/security/advisories/GHSA-wc96-jm46-37hh))
 
 ### 🔗 Upstream detections
 
@@ -66,6 +68,7 @@ Detection templates merged into projectdiscovery/nuclei-templates:
 - **CVE-2026-26190** Milvus, unauthenticated metrics port ([#16333](https://github.com/projectdiscovery/nuclei-templates/pull/16333))
 - **CVE-2026-25527** changedetection.io ≤ 0.52.9 ([#16346](https://github.com/projectdiscovery/nuclei-templates/pull/16346))
 - **CVE-2026-33476** SiYuan ≤ v3.6.1 ([#16335](https://github.com/projectdiscovery/nuclei-templates/pull/16335))
+- **CVE-2026-31831** Tautulli ≤ 2.16.1, unauthenticated path traversal ([#16345](https://github.com/projectdiscovery/nuclei-templates/pull/16345))
 <div align="center">
 
 <sub><code>0 / <!--SIGMA_RULES_START-->100<!--SIGMA_RULES_END--> benign sigma false-positives</code> · <code>0 CodeQL alerts</code> · <code>MIT across the ecosystem</code> · <code>zero-dependency Python where it makes sense</code></sub>
