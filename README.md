@@ -8,7 +8,6 @@
 <p>
   <img src="https://img.shields.io/badge/license-MIT-2ea043?labelColor=30363d" alt="license" />
   <img src="https://img.shields.io/badge/sigma_rules-100-1f6feb?labelColor=30363d" alt="sigma rules" />
-  <img src="https://img.shields.io/badge/benign_false--positives-0-2ea043?labelColor=30363d" alt="benign false positives" />
   <img src="https://img.shields.io/badge/CodeQL_alerts-0-2ea043?labelColor=30363d" alt="CodeQL alerts" />
 </p>
 
@@ -42,7 +41,7 @@ Offensive &amp; defensive AI/LLM security tools, labs, and CTF write-ups. Zero-d
 
 [**wrg-sigma-rules**](https://github.com/WRG-11/wrg-sigma-rules) &nbsp; ![last commit](https://img.shields.io/github/last-commit/WRG-11/wrg-sigma-rules?style=flat&labelColor=30363d&color=6e7681&display_timestamp=committer&label=updated)
 
-<!--SIGMA_RULES_START-->100<!--SIGMA_RULES_END--> sigma detection rules across 13 ATT&CK tactic categories, 0 benign false-positives. Ships 3 MCP tools + 3 Claude Code skills.
+<!--SIGMA_RULES_START-->100<!--SIGMA_RULES_END--> sigma detection rules across <!--SIGMA_TACTICS_START-->14<!--SIGMA_TACTICS_END--> ATT&CK tactic categories, none marked `stable` — sigma's `status:` field used literally rather than aspirationally. Ships 3 MCP tools + 3 Claude Code skills.
 
 ### 🧭 OSINT & research
 
@@ -71,6 +70,6 @@ Detection templates merged into projectdiscovery/nuclei-templates:
 - **CVE-2026-31831** Tautulli ≤ 2.16.1, unauthenticated path traversal ([#16345](https://github.com/projectdiscovery/nuclei-templates/pull/16345))
 <div align="center">
 
-<sub><code>0 / <!--SIGMA_RULES_START-->100<!--SIGMA_RULES_END--> benign sigma false-positives</code> · <code>0 CodeQL alerts</code> · <code>MIT across the ecosystem</code> · <code>zero-dependency Python where it makes sense</code></sub>
+<sub><code>0 of <!--SIGMA_RULES_START-->100<!--SIGMA_RULES_END--> sigma rules marked stable</code> · <code>0 CodeQL alerts across 5 public repos</code> · <code>MIT across the ecosystem</code> · <code>zero-dependency Python where it makes sense</code></sub>
 
 </div>
