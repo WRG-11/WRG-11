@@ -8,7 +8,6 @@
 <p>
   <img src="https://img.shields.io/badge/featured_projects-MIT-2ea043?labelColor=30363d" alt="featured projects are MIT-licensed" />
   <img src="https://img.shields.io/badge/sigma_rules-296-1f6feb?labelColor=30363d" alt="sigma rules" />
-  <img src="https://img.shields.io/badge/CodeQL_alerts-0-2ea043?labelColor=30363d" alt="CodeQL alerts" />
 </p>
 
 <p>
