@@ -3,10 +3,10 @@
 <h1>🛡️ WinstonRedGuard · WRG-11</h1>
 
 <p><strong>Pseudonymous solo research lab for AI/LLM security &amp; OSINT tooling</strong></p>
-<p><em>Working artifacts, not promises. Everything open source under MIT.</em></p>
+<p><em>Working artifacts, not promises. The five featured project repositories are MIT-licensed.</em></p>
 
 <p>
-  <img src="https://img.shields.io/badge/license-MIT-2ea043?labelColor=30363d" alt="license" />
+  <img src="https://img.shields.io/badge/featured_projects-MIT-2ea043?labelColor=30363d" alt="featured projects are MIT-licensed" />
   <img src="https://img.shields.io/badge/sigma_rules-296-1f6feb?labelColor=30363d" alt="sigma rules" />
   <img src="https://img.shields.io/badge/CodeQL_alerts-0-2ea043?labelColor=30363d" alt="CodeQL alerts" />
 </p>
@@ -19,7 +19,7 @@
 
 ---
 
-Solo researcher working on AI/LLM security, detection engineering, and OSINT tooling. I publish small, zero-dependency artifacts I actually use: vulnerable-by-design labs, a client-side secret scanner, Sigma detection content, and OSINT trust envelopes. Bug reports and detection rules occasionally land upstream.
+Solo researcher working on AI/LLM security, detection engineering, and OSINT tooling. I publish small, security-focused open-source artifacts I actually use: vulnerable-by-design labs, a client-side secret scanner, Sigma detection content, and OSINT trust envelopes. Several core tools are standard-library-only. Bug reports and detection rules occasionally land upstream.
 
 ### 🧪 Security labs & research
 
@@ -70,6 +70,6 @@ Detection templates merged into projectdiscovery/nuclei-templates:
 - **CVE-2026-31831** Tautulli ≤ 2.16.1, unauthenticated path traversal ([#16345](https://github.com/projectdiscovery/nuclei-templates/pull/16345))
 <div align="center">
 
-<sub><code>0 of <!--SIGMA_RULES_START-->296<!--SIGMA_RULES_END--> sigma rules marked stable</code> · <code>0 CodeQL alerts across 5 public repos</code> · <code>MIT across the ecosystem</code> · <code>zero-dependency Python where it makes sense</code></sub>
+<sub><code>0 of <!--SIGMA_RULES_START-->296<!--SIGMA_RULES_END--> sigma rules marked stable</code> · <code>no open CodeQL alerts across 5 featured repos (checked 2026-09-16)</code> · <code>MIT-licensed featured projects</code> · <code>standard-library-first where it makes sense</code></sub>
 
 </div>
