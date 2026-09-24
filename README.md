@@ -7,7 +7,7 @@
 
 <p>
   <img src="https://img.shields.io/badge/featured_projects-MIT-2ea043?labelColor=30363d" alt="featured projects are MIT-licensed" />
-  <img src="https://img.shields.io/badge/sigma_rules-296-1f6feb?labelColor=30363d" alt="sigma rules" />
+  <img src="https://img.shields.io/badge/sigma_rules-299-1f6feb?labelColor=30363d" alt="sigma rules" />
 </p>
 
 <p>
@@ -40,7 +40,7 @@ Offensive &amp; defensive AI/LLM security tools, labs, and CTF write-ups. Zero-d
 
 [**wrg-sigma-rules**](https://github.com/WRG-11/wrg-sigma-rules) &nbsp; ![updated](https://img.shields.io/github/last-commit/WRG-11/wrg-sigma-rules?style=flat&labelColor=30363d&color=6e7681&display_timestamp=committer&label=updated)
 
-<!--SIGMA_RULES_START-->296<!--SIGMA_RULES_END--> Sigma detection rules across <!--SIGMA_TACTICS_START-->14<!--SIGMA_TACTICS_END--> ATT&CK tactic categories, none marked `stable` — sigma's `status:` field used literally rather than aspirationally. Ships 3 MCP tools + 3 Claude Code skills.
+<!--SIGMA_RULES_START-->299<!--SIGMA_RULES_END--> Sigma detection rules across <!--SIGMA_TACTICS_START-->14<!--SIGMA_TACTICS_END--> ATT&CK tactic categories, none marked `stable` — sigma's `status:` field used literally rather than aspirationally. Ships 3 MCP tools + 3 Claude Code skills.
 
 ### 🧭 OSINT & research
 
@@ -80,6 +80,6 @@ Detection templates merged into projectdiscovery/nuclei-templates:
 
 <div align="center">
 
-<sub><code>0 of <!--SIGMA_RULES_START-->296<!--SIGMA_RULES_END--> sigma rules marked stable</code> · <code>no open CodeQL alerts across 5 featured repos (checked 2026-09-20)</code> · <code>MIT-licensed featured projects</code> · <code>standard-library-first where it makes sense</code></sub>
+<sub><code>0 of <!--SIGMA_RULES_START-->299<!--SIGMA_RULES_END--> sigma rules marked stable</code> · <code>no open CodeQL alerts across 5 featured repos (checked 2026-09-20)</code> · <code>MIT-licensed featured projects</code> · <code>standard-library-first where it makes sense</code></sub>
 
 </div>
