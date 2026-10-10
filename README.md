@@ -60,9 +60,9 @@ Deny-by-default, per-action-gated Windows window MCP server. Every capability (o
 
 Credited reporter on published GitHub Security Advisories:
 
-- **Pelican:** application API mounts ACL-scope bypass, CWE-862/863 ([GHSA-43h8-3896-wqv5](https://github.com/pelican-dev/panel/security/advisories/GHSA-43h8-3896-wqv5))
-- **Pelican:** Filament suspend-all / unsuspend-all missing authorization ([GHSA-4wxv-r46p-w2f9](https://github.com/pelican-dev/panel/security/advisories/GHSA-4wxv-r46p-w2f9))
-- **Jexactyl:** free-billing flow missing ownership check, CWE-862 ([GHSA-9xwv-p7r5-5h5p](https://github.com/Jexactyl/Jexactyl/security/advisories/GHSA-9xwv-p7r5-5h5p))
+- **Pelican:** application API mounts ACL-scope bypass, CWE-862 ([GHSA-43h8-3896-wqv5](https://github.com/pelican-dev/panel/security/advisories/GHSA-43h8-3896-wqv5))
+- **Pelican:** Filament suspend-all / unsuspend-all missing authorization, CWE-862 ([GHSA-4wxv-r46p-w2f9](https://github.com/pelican-dev/panel/security/advisories/GHSA-4wxv-r46p-w2f9))
+- **Jexactyl:** free-billing flow missing ownership check, CWE-639, CVE-2026-107854 ([GHSA-9xwv-p7r5-5h5p](https://github.com/Jexactyl/Jexactyl/security/advisories/GHSA-9xwv-p7r5-5h5p))
 - **OneUptime:** incoming-call-number resend-verification-code missing ownership check — the sibling channel the CVE-2026-30959 fix sweep left uncovered, CWE-862 ([GHSA-wc96-jm46-37hh](https://github.com/OneUptime/oneuptime/security/advisories/GHSA-wc96-jm46-37hh))
 
 Vendor security acknowledgement:
